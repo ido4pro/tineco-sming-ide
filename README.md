@@ -19,6 +19,13 @@ cd /opt/ && git clone https://github.com/SmingHub/Sming.git
 
 ```
 
+## Clone this repo
+
+```shell
+cd /opt/ && https://github.com/ido4pro/tineco-sming-ide-docker.git
+
+```
+
 ## Ajust your setting in tineco-sming-ide-docker.yml
 
 ```
@@ -38,7 +45,7 @@ cd /opt/ && git clone https://github.com/SmingHub/Sming.git
 ## Start your container
 
 ```shell
-docker-compose -f sming-ide.yml up -d
+docker-compose -f tineco-sming-ide-docker.yml up -d
 
 ```
 ## Open your browser

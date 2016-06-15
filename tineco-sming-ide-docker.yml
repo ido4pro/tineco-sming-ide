@@ -1,14 +1,16 @@
-tineco-sming-ide-docker:
+tineco-sming-ide:
 
+ container_name: tineco-sming-ide
  build: .
- 
+  
  volumes:
-   - ../../Sming/:/opt/sming/
+   - /YOUR_PROJECT_FOLDER:/opt/workspace
+   - /YOUR_PROJECT_FOLDER/Sming:/opt/sming
    
  ports:
  - "10080:80"
  
- devices:
+ # devices:
  #- "/dev/ttyUSB0:/dev/ttyUSB0"
 
  

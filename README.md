@@ -29,4 +29,7 @@ Setup informations in tineco-sming-ide-docker.yml
 docker-compose -f tineco-sming-ide-docker.yml up -d
 ```
 
+Open in your browser : http://localhost:10080
+
+
 

@@ -1,7 +1,7 @@
 tineco-sming-ide:
 
  container_name: tineco-sming-ide
- build: .
+ image: ido4pro/tineco-sming-ide-docker
   
  volumes:
    - /YOUR_PROJECT_FOLDER:/opt/workspace
